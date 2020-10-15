@@ -20,10 +20,9 @@ deno --version
 
 git clone  这个地址
 
-deno run --allow-net mod.js
 ```
 ```sh
-tough mod.js
+touch mod.js
 vim mod.js # add helloworld
 deno run --allow-net mod.js
 curl localhost:8080
