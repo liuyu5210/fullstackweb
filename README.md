@@ -22,7 +22,7 @@ git clone  这个地址
 
 deno run --allow-net mod.js
 ```
-···sh
+```sh
 tough mod.js
 vim mod.js # add helloworld
 deno run --allow-net mod.js
