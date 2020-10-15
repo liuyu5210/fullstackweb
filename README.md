@@ -15,12 +15,18 @@ sudo apt install unzip
 curl -fsSL https://deno.land/x/install/install.sh | sh
 # 拷贝二进制文件
 sudo cp .deno/bin/deno /usr/bin
+# 检测是否安装成功
 deno --version
 
 git clone  这个地址
 
 deno run --allow-net mod.js
 ```
-
+···sh
+tough mod.js
+vim mod.js # add helloworld
+deno run --allow-net mod.js
+curl localhost:8080
+```
 ## DataBase
 >持久化数据，保存brower(浏览器)用户需要的数据
