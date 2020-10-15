@@ -17,7 +17,9 @@ curl -fsSL https://deno.land/x/install/install.sh | sh
 sudo cp .deno/bin/deno /usr/bin
 deno --version
 
-git clone
+git clone  这个地址
+
+deno run --allow-net mod.js
 ```
 
 ## DataBase
