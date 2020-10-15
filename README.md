@@ -9,10 +9,15 @@
 功能：
 响应浏览器http请求
 ```sh
+# 安装unzip解压工具
 sudo apt install unzip
-
+# 安装deno
+curl -fsSL https://deno.land/x/install/install.sh | sh
+# 拷贝二进制文件
 sudo cp .deno/bin/deno /usr/bin
 deno --version
+
+git clone
 ```
 
 ## DataBase
