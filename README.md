@@ -10,6 +10,9 @@
 响应浏览器http请求
 ```sh
 sudo apt install unzip
+
+sudo cp .deno/bin/deno /usr/bin
+deno --version
 ```
 
 ## DataBase
