@@ -23,8 +23,8 @@ git clone  这个地址
 ```
 ```sh
 touch mod.js
-vim mod.js # add helloworld
-deno run --allow-net mod.js
+vim mod.js # add helloworld    和  index.html
+deno run --allow-net mod.js   deno run --allow-net --allow-read mod.js 
 curl localhost:8080
 ```
 ## DataBase
